@@ -28,6 +28,9 @@
   <Import Project="..\..\build\EmbedXaml.props" />
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Avalonia\src\Avalonia.Base\Avalonia.Base.csproj" />
+    <ProjectReference Include="..\..\..\Avalonia\src\Avalonia.Controls\Avalonia.Controls.csproj" />
+    <ProjectReference Include="..\..\..\Avalonia\src\Markup\Avalonia.Markup.Xaml\Avalonia.Markup.Xaml.csproj" />
     <ProjectReference Include="..\Dock.Model\Dock.Model.csproj" />
   </ItemGroup>
 

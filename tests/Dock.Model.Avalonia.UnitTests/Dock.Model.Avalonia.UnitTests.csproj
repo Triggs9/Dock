@@ -16,6 +16,7 @@
   <Import Project="..\..\build\Avalonia.props" />
 
   <ItemGroup>
+    <ProjectReference Include="..\..\..\Avalonia\src\Avalonia.Base\Avalonia.Base.csproj" />
     <ProjectReference Include="..\..\src\Dock.Model\Dock.Model.csproj" />
     <ProjectReference Include="..\..\src\Dock.Model.Avalonia\Dock.Model.Avalonia.csproj" />
   </ItemGroup>
